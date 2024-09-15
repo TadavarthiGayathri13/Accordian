@@ -1,0 +1,60 @@
+/* Styles for the main container */
+body {
+  background: linear-gradient(to right, #9D50BB, #E53935);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Accordion Wrapper */
+.accordion-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 390px;
+  text-align: center;
+}
+
+/* Accordion Header */
+.accordion-header {
+  background: linear-gradient(to right, lightblue,violet);
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+/* Accordion Content */
+.accordion-content {
+  padding: 16px;
+  background-color: lightgrey;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: -10px;
+}
+
+/* Accordion Item Styles */
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+/* Transform for Arrow Icon */
+.arrow-icon {
+  transform: rotate(0);
+  font-size: 1.8rem;
+}
+
+/* .accordion-header:hover {
+  background: linear-gradient(to right, #70e1f5, #ffd194);
+} */
+
+
